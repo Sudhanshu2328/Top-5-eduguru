@@ -3,6 +3,8 @@ import './App.css'
 import{BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Login from './components/Login'
 import Navbar from './components/Navbar'
+import HomePage from './components/Homepage'
+
 
 const App = () => {
   return (
@@ -10,8 +12,10 @@ const App = () => {
       <BrowserRouter>
       <Navbar/>
       <Routes>
+      <Route path='/' element={<HomePage/> } />
       <Route path='/Login' element={<Login />} />
-      <Route path='/Navbar' element={<Navbar />} />
+     
+     
       </Routes>
       
       </BrowserRouter>
