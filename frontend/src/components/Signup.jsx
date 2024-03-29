@@ -7,6 +7,7 @@ const Signup = () => {
         <h1>dsckjsiuqh</h1>
         <p>chghgfhgf</p>
         <p>cjhgfhjgfjhfjhfjhf</p>
+        <h1>Sudhanshu Shukla</h1>
       </div>
     </div>
   )
